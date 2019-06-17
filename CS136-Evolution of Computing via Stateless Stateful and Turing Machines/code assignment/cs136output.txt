@@ -1,0 +1,15 @@
+Example input/output is shown below.
+
+The grammar has a potential mistake -- it is impossible to go from the <expr>
+rule to the <letter> rule, making it impossible to do comparisons of anything
+but numbers to numbers.  That is why my if statement compares 0 to 1.
+
+
+[salmonss@athena:52]> ./a.out
+I(0=1)@Y&0$#
+Parsing successful!
+
+
+[salmonss@athena:56]> ./a.out
+I=2;
+Parsing error

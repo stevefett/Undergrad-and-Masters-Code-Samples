@@ -1,0 +1,4 @@
+Steven Salmons
+CSC 35 - System Architecture, starting from the contents of a cpu out to full firmware control of user input and output devices and storage control, all in Assembly.  ASM being the closest language to the binary machine code used by computers.   
+
+Understanding of ASM means understanding how to:  Interpret seg dumps for where a problerm occurss;  reverse engineer apps used in validation to turn "black box" tests into whitebox tests, no longer blind to the logic that the application performs;   and being one step away from logic gate design, slow resource hog segments of an application can be rewriten in pure ASM -- some higher languages let the actual code to be inlined into the source, while others can be flagged to interpret asm into its native syntax.

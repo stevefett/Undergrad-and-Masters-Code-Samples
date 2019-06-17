@@ -1,0 +1,56 @@
+<?php
+/**
+ * Application Settings.
+ *
+ * API Keys, Sheet URL, and other constants.
+ *
+ */
+
+
+/*
+ * Student Attendance Tracker Settings
+ *
+ *
+ */
+
+// Set Default Timezone to match CSUS
+date_default_timezone_set('America/Los_Angeles');
+
+// Application name.
+define('APPLICATION_NAME', 'Student Attendance Tracker');
+
+
+
+/*
+ * Google Sheets Settings
+ *
+ *
+ */
+
+// Google Maps API Key
+define('G_MAPS_KEY', 'GOOGLE MAPS API KEY HERE');
+
+// Google Sheet URL
+define('G_SHEET_ID', 'ENTER YOUR GOOGLE SHEETS ID');
+
+// Google SMTP Email Address
+define('G_EMAIL_NAME','EXAMPLE@gmail.com');
+
+// Google SMTP Email Address
+define('G_EMAIL_PASS','GMAIL CREDENTIALS');
+
+
+
+/*
+ * Geo Location Settings
+ *
+ *
+ */
+
+// Distance in meters required for attendance submission.
+define('DISTANCE_REQUIREMENT', 50);
+
+// Class Room Location @ Riverside Hall
+define('CLASS_ROOM_LAT', 38.562074);
+define('CLASS_ROOM_LONG', -121.422569);
+

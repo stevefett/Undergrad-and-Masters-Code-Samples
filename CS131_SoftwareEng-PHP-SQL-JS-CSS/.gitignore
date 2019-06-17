@@ -1,0 +1,5 @@
+.idea
+client_secret.json
+CSC131-Attendance-a6ad4c1bd4cf.json
+*.json
+/config/config.php

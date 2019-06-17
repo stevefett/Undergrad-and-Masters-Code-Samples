@@ -1,0 +1,24 @@
+Steven Salmons
+CSC 134 - Relational Database Theory and Application
+
+Assignment 4 - Installation and config of mysql server
+
+
+Notes: 
+
+Due to Gaia Server downtime, personal mysql was installed on my own externally facing server,  After issuing root login:
+
+mysql -u root -p ********
+CREATE SCHEMA PAINT_STORE CHARACTER SET utf8mb4;
+
+Once created, the new schema was selected
+
+use PAINT_STORE;
+
+Config complete, now a locally hosted mysql is used in all future transactions or DB management.
+
+
+
+
+
+
